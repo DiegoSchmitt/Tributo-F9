@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.topo{
+    display: flex;
+    height: 150px;
+    background-color:#8B0000;
+    width: 100%;
+    font-family: 'Bree Serif', serif; 
+}
+.titulo{
+    flex: 1;
+}
+.img{
+    flex: 1;
+    text-align: start;
+    margin-top: 20px;
+}
+.titulo{
+    margin: auto;
+    text-align: center;
+    color: white;   
+}
+.imgprincipais{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.imggoi{
+    flex: 1;
+}
+.imgint{
+    flex: 1;
+}
+.imgsp{
+    flex: 1;
+}
+.imggoi img{
+    width: 300px;
+    padding-right: 40px;
+}
+.imgint img{
+    width: 400px;
+}
+.imgsp img{
+    width: 300px;
+    padding-left: 40px;
+}
+.historia h1{
+    text-align: center;
+    margin-top: 100px;
+    color: #8B0000;
+}
+.tragetoria{
+    display: flex;
+    justify-content: center;
+}
+.ano{
+    height: 70px;
+    flex: 1;
+    font-size: 40px;
+    background-color:#8B0000;;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    border: white 1px solid;
+}
+.resumo{
+    flex: 8;
+    background-color: white;
+    color:#8B0000;
+    font-size: 16px;
+    border: #8B0000 1px solid;
+}
+.cor1{
+    background-color: red;
+    height: 100px;
+    padding-bottom: 20px;
+}
+.cor2{
+    background-color: white;
+    height: 100px;
+    padding-bottom: 20px;
+}
+footer{
+    display: flex;
+}
+.estatua{
+   flex: 1;
+   background-color: #8B0000; 
+   height: 400px;
+   text-align: end;
+}
+.estatua img{
+    margin: 40px;
+}
+.texto{
+    flex: 1;
+    background-color: #8B0000;
+    height: 400px;
+    color: white;
+}
+.texto p{
+    margin: 50px;
+    margin-top: 80px;
+    margin-right: 70px;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+.des{
+    color:#8B0000;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
